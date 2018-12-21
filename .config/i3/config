@@ -419,3 +419,4 @@ bindsym XF86Documents		exec $term -e ranger ~/Documents
 ##bindsym XF86Bluetooth		exec
 bindsym XF86WLAN		exec $netrefresh
 exec_always --no-startup-id notify-send -i ~/.scripts/pix/larbs.png '<b>Welcome to LARBS:</b> Press Super+F1 for the manual.' -t 10000
+exec nmcli connection up StarLeafVPN
