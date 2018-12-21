@@ -51,3 +51,4 @@ alias YT="youtube-viewer"
 
 shdl() { curl -O $(curl -s http://sci-hub.tw/"$@" | grep location.href | grep -o http.*pdf) ;}
 vf() { $EDITOR $(fzf) ;}
+source /home/kimjunte/.shortcuts
