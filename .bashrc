@@ -39,7 +39,7 @@ alias ref="shortcuts && source ~/.bashrc" # Refresh shortcuts manually and reloa
 alias bw="wal -i ~/.config/wall.png" # Rerun pywal
 
 # Adding color
-alias ls='ls -hN --color=auto --group-directories-first'
+alias ls='ls --color=auto'
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
 alias ccat="highlight --out-format=ansi" # Color cat - print file with syntax highlighting.
